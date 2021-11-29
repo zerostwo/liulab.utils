@@ -1,0 +1,15 @@
+Package: liulab.utils
+Title: Tools for Liu's Lab
+Version: 0.1.0
+Date: 2021-11-29
+Authors@R: c(
+  person(given = "Songqi", family = "Duan", email = "songqi.duan@outlook.com", role = c("aut", "cre", "cph"), comment = c(ORCID = "0000-0002-0822-5883"))
+  )
+Maintainer: Songqi Duan <songqi.duan@outlook.com>
+Description: Here are the functions that Liu's Lab will often reuse.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 4.0.0)
+RoxygenNote: 7.1.2
