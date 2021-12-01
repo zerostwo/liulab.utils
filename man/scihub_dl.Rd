@@ -13,7 +13,9 @@ scihub_dl(doi, scihub = "sci-hub.se", download = TRUE, mode = "wb")
 
 \item{download}{Whether to download the PDF file of the publication}
 
-\item{mode}{The mode with which to write the file. Useful values are "w", "wb" (binary), "a" (append) and "ab". Not used for methods "wget" and "curl". See also ‘Details’, notably about using "wb" for Windows.}
+\item{mode}{The mode with which to write the file. Useful values are "w",
+"wb" (binary), "a" (append) and "ab". Not used for methods "wget" and
+"curl". notably about using "wb" for Windows.}
 }
 \value{
 PDF file URL address and PDF file
