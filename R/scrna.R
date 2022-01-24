@@ -37,7 +37,7 @@ scibet <-
     expr <- expr[, -ncol(expr)]
 
     prd <- scibet::LoadModel(model)
-    label <- scibet::prd(expr)
+    label <- prd(expr)
     return(label)
   }
 
